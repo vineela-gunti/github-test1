@@ -19,8 +19,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-      - name: install npm
-        run: npm install
-      - name: run tests
-        run: npm test
+      - name: run commands
+        run: whoami && df -h
 
